@@ -17,7 +17,7 @@ export default function AddEditScreen({ route, navigation}) {
 
         if(person){
             await updatePerson(person.id,data);
-
+""
         }else{
             await createPerson(data)
         }
