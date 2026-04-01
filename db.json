@@ -1,0 +1,11 @@
+{
+  "people": [
+    {
+      "id": 1,
+      "first": "Felipe",
+      "last": "Gonzalez",
+      "email": "felipe@email.com",
+      "phone": "11999999999"
+    }
+  ]
+}

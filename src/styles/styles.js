@@ -1,37 +1,48 @@
 import { StyleSheet } from "react-native";
-import { Button } from "react-native/types_generated/index";
 
 export default StyleSheet.create({
-    container:{
-        flex:1,
-        padding:20,
-        backgroundColor: "#f5f5f5"
+    container: {
+        flex: 1,
+        padding: 20,
+        marginTop: 40,
+        backgroundColor: "#f5f7fb"
     },
-    title:{
-        fontSize:22,
-        textAlign: "center",
+
+    title: {
+        fontSize: 26,
+        fontWeight: "bold",
         marginBottom: 20
     },
 
-    card: {
-        flexDirection: "row",
-        justifyContent:"space-between",
+    input: {
+        borderWidth: 1,
+        borderColor: "#d0d7de",
         backgroundColor: "#fff",
-        padding:10,
-        marginBottom:10,
-        borderRadius:5
+        padding: 12,
+        borderRadius: 10,
+        marginBottom: 12
+    },
+
+    buttonSpace: {
+        marginBottom: 10
+    },
+
+    card: {
+        padding: 15,
+        borderWidth: 1,
+        borderColor: "#ddd",
+        backgroundColor: "#fff",
+        marginTop: 10,
+        borderRadius: 12
     },
 
     name: {
-        fontSize: 14
+        fontSize: 18,
+        fontWeight: "bold"
     },
+
     email: {
-        fontSize: 14
-    },
-    button: {
-        padding:10,
-        backgroundColor: "#4CAF50",
-        borderRadius: 5
+        fontSize: 14,
+        marginTop: 4
     }
-    
-})
+});

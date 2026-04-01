@@ -21,16 +21,16 @@ export async function createPerson(person) {
         headers: {
             "Content-Type": "application/json"
         },
-        body: JSON.stringify(person) //tranforma em json
+        body: JSON.stringify(person)
     })
     return response.json()
 }
 
 export async function updatePerson(id, person) {
-    const response = await fetch(`${API_URL}people${id}`, {
+    const response = await fetch(`${API_URL}/people/${id}`, {
         method: "PUT",
         headers: {
-            "Content-Type": "application.json"
+            "Content-Type": "application/json"
         },
         body: JSON.stringify(person)
     });
